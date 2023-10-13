@@ -155,7 +155,7 @@ body{
   }
   
   .sighup_content button {
-    crusor:pointer;
+    cursor: pointer;
     background: #482BE7;
     color: #ffffff; 
     font-size: 18px; 
