@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #2F1893;
+}
+.container {
+    padding: 55px 0px 0px;
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    
+    display: flex;
+    border-radius: 30px;
+}
+.navbar li{
+    list-style: none ;
+}
+
+.navbar .logo a{
+    font-size: 24px;
+    font-family: DM Sans; 
+    font-weight: 700;
+    text-decoration: none;
+}
+.other{
+    margin-left: 370px;
+}
+.navbar .navitems{
+    display: flex;
+    gap: 2.5rem;
+    color: white; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.purchage_btn{
+    background-color: #E93A7D;
+    width: 120px; 
+    height: 40px; 
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 600;
+}
+.purchage_btn:hover{
+    color: rgb(0, 0, 0);
+}
+.body_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.left{
+    width: 427px; 
+    height: 496px; 
+}
+.left h1{
+    width: 424px; 
+    height: 217px;
+    color: white; 
+    font-size: 60px; 
+    font-family: DM Sans; 
+    font-weight: 600; 
+    line-height: 70px; 
+    word-wrap: break-word;
+}
+.left p{
+    margin-top: 20px;
+    color: white; 
+    font-size: 22px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    line-height:27px; 
+    letter-spacing: 0.6px;
+    word-spacing: 1.5px;
+    word-wrap: break-word;
+    max-width: 363px;
+}
+.learn_more {
+    margin-top: 55px;
+}
+.learn_more_btn {
+    background-color: #E93A7D;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500;
+  }
+.signup_card{
+    width: 470px; 
+    height: 570px; 
+    background: white; 
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    padding: 10px 0px 0px 0px;   
+  }
+  .sighup_content{
+    text-align: center;
+  }
+ .sighup_header h1{
+    text-align: center;
+    padding: 10px;
+    font-size:42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #201162;
+    margin-top: 30px;
+  }
+  .input_form input {
+    align-items: center;
+    width: 330px; 
+    height: 50px; 
+    border-radius: 100px;
+    border: 2px #EBEAED solid;
+    margin-top: 24px;
+  }
+  .input_form :placeholder-shown{
+    padding-left: 20px;
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    line-height: 26px; 
+  }
+  .card_text{
+    display: inline-flexbox;
+    margin-top: 24px;
+  }
+  .card_text a{
+    text-decoration: none;
+    color: #0f5049;
+  }
+  
+  .sighup_content button {
+    background: #482BE7;
+    color: #ffffff; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    outline: none;
+    line-height: 28px;
+    width: 330px; 
+    height: 50px; 
+    border-radius: 100px;
+    border: none;
+    margin-top: 24px;
+  }
+  .or{
+    display: inline-flex;
+    width: 330px;
+    justify-content: space-between;
+    margin-top: 11.10px;
+  }
+  .or p{
+    opacity: 0.90; 
+    text-align: center; 
+    color: rgba(21.06, 20.34, 56.79, 0.40); 
+    font-size: 16px; 
+    font-family: DM Sans; 
+    font-weight: 600; 
+    line-height: 26px; 
+  }
+  .or_line{
+    width: 141.57px; 
+    height: .1px; 
+    border: 2px #EBEAED solid;
+    margin-top: 13px;
+  }
+
